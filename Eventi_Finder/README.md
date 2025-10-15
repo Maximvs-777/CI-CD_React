@@ -13,6 +13,7 @@ Even Finder è un'applicazione React per la gestione di eventi. Questo documento
 •	Sviluppatori: sviluppo e rilascio
 •	Tester: validazione
 •	Stakeholder: revisione requisiti
+•   Utenti: utilizzo applicazione
 1.4 Ambito del Progetto
 L’app consente di creare, gestire, cercare, eliminare ed esportare/importare eventi, con persistenza su localStorage. È sviluppata in step incrementali secondo pratiche DevOps.
 1.5 Riferimenti
@@ -29,7 +30,7 @@ Applicazione standalone basata su React, senza backend. Funziona interamente in 
 •	Eliminazione eventi
 •	Ricerca e filtri
 •	Salvataggio in localStorage
-•	Import/export JSON
+
 2.3 Tipi di Utenti
 Utente	Descrizione
 Base	Usa l’app per gestire eventi
@@ -40,7 +41,7 @@ Dev/Tester	Gestisce sviluppo e test
 •	Dati in localStorage
 2.5 Vincoli
 •	Solo client-side
-•	Formato dati JSON
+
 
 2.6 Documentazione Utente
 •	CHANGELOG per ogni versione
@@ -65,11 +66,7 @@ Priorità: Alta
 Priorità: Media
 •	REQ-8: Ricerca per Titolo, Luogo, Categoria, Prezzo, Data
 •	REQ-9: Filtri combinabili
-3.5 Importazione/Esportazione JSON
-Priorità: Media
-•	REQ-10: Esporta eventi in JSON
-•	REQ-11: Importa eventi da JSON
-•	REQ-12: Gestione errori in import
+
 ________________________________________
 4. Requisiti di Interfaccia
 4.1 Interfaccia Utente
@@ -80,6 +77,6 @@ ________________________________________
 Nessuna richiesta specifica
 4.3 Interfacce Software
 •	Uso di localStorage
-•	Formato dati: JSON
+
 ________________________________________
 
